@@ -1,0 +1,254 @@
+<html lang="en" style="scroll-behavior: smooth; scroll-padding-top: 100px;"></html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  margin: 10px;
+}
+header{
+  width: 95%;
+  left: 2.5%;
+  margin-top: 20px;
+  text-align: center;
+  background-color:  #fcebebfa;
+  border-radius: 10px;
+  padding: 20px;
+  position: fixed ;
+ box-shadow: 0px 4px 10px rgba(88, 88, 88, 0.2);
+      
+}
+nav{
+  display: flex;
+  justify-content: center;
+ gap: 30px;
+}
+nav a{
+  text-decoration: none;                
+  color: #3d3d3d;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+nav a:hover{
+  color:#3d3d3d;
+  font-weight: bold;
+}
+main{
+  background-color: whitesmoke;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+}
+#home{
+  background-color: rgb(193, 230, 235);
+  text-align: center;
+  max-height: 80vh;
+  padding: 70px;
+  border-radius: 10px;
+  color: #3d3d3d;
+  margin-top: 7.5%;
+box-shadow: 0px 4px 10px rgba(88, 88, 88, 0.2);
+ 
+}
+#home img{
+  width: 200px;
+  border-radius: 100%;
+  height: 200px;
+  margin: 20px auto;
+  margin-top: 2%;
+  object-fit: cover;
+  display: block;
+  }
+#home h1,h2,p{
+  font: 1.5em ;
+  padding: 5px;
+}
+#about{
+  background-color: rgb(208, 211, 233);
+ max-height: 80vh;
+  padding: 80px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  margin-top: 30px;
+color: #3d3d3d;
+box-shadow: 0px 4px 10px rgba(88, 88, 88, 0.2);
+ 
+}
+#work{
+  background-color: rgb(253, 247, 188);
+  color: #3d3d3d;
+  margin-top: 30px;
+  padding: 80px;
+  max-height: 200vh;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(88, 88, 88, 0.2);
+ 
+}
+#work .practice-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  gap: 25px;
+  padding: 20px;
+}
+
+.semantics-practice, .table-layout-practice, .theme-toggle-practice, 
+.flexbox-team-cards, .spotify-layout-practice, .grid-layout-practice {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+#work .practice-container img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+#skill{
+  background-color: rgb(207, 245, 217);
+   max-height: 80vh;
+  padding: 80px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  margin-top: 30px;
+color: #3d3d3d;
+margin-bottom: 20px;
+box-shadow: 0px 4px 10px rgba(88, 88, 88, 0.2);
+}
+#skill li{
+  padding: 10px;
+  list-style: none;
+}
+#skill ul li{
+  padding: 3px;
+  
+}
+#contact{
+background-color: rgb(252, 224, 228);
+text-align: center;
+   max-height: 80vh;
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  margin-top: 30px;
+color: #3d3d3d;
+box-shadow: 0px 4px 10px rgba(88, 88, 88, 0.2);
+}
+#contact a{
+text-decoration: none;
+color: #3d3d3d;  
+}
+#contact a:hover{
+  font-weight: bold;
+}
+
+    </style>
+  </head>
+
+  <body>
+    <header>  
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#skill">Skill</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <h1>HI , </h1>
+        <h2>I AM MINAHIL</h2>
+        <p>
+          Front-end developer in progress, learning to build clean and
+          responsive user interfaces.
+        </p>
+        <img src="/portfolio.jfif" alt="" />
+      </section>
+
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          I&#39m currently learning front-end development, building responsive
+          layouts and improving my skills in HTML and CSS. My goal is to grow
+          into a full-stack developer by expanding into backend technologies
+          over time.
+        </p>
+      </section>
+<section id="work">
+  <h2>Work</h2>
+  <p>Below are some practice projects I&#39ve built while learning front-end development. They include layouts and UI designs created using HTML and CSS.</p>
+ 
+  <div class="practice-container">
+
+    <div class="semantics-practice">
+      <a href="https://minahil-butt.github.io/semantic-practice/">
+        <img src="/Semantics-practice.png" alt="">
+      </a>
+      <h3>semantics-practice</h3>
+    </div>
+
+<div class="table-layout-practice">
+  <a href="https://minahil-butt.github.io/webpage-table-layout-practice/">
+    <img src="/table-layout-practice.png" alt="">
+  </a>
+  <h3>table-layout-practice</h3>
+</div>
+ 
+    <div class="theme-toggle-practice">
+      <a href="https://minahil-butt.github.io/theme-toggle-practice/">
+        <img src="/theme-toggle-practice.png" alt="">
+      </a>
+      <h3>theme-toggle-practice</h3>
+    </div>
+ <div class="flexbox-team-cards">
+  <a href="https://minahil-butt.github.io/flex-layout-practice/teams-card-flexbox/index.html">
+    <img src="/flexbox-team-cards.png" alt="">
+  </a>
+  <h3>flexbox-team-cards</h3>
+ </div>
+ <div class="spotify-layout-practice">
+  <a href="https://minahil-butt.github.io/spotify-layout-practice/">
+    <img src="/spotify-layout-practice.png" alt="">
+  </a>
+  <h3>spotify-layout-practice</h3>
+ </div>
+    <div class="grid-layout-practice">
+      <a href="https://minahil-butt.github.io/grid-layout-practice/advanced-grid-practice/index.html" target="_blank">
+  <img src="/grid-dashboard-practice.png" alt="">
+</a>
+<h3>grid-dashboard-practice</h3>
+    </div>
+
+  </div>
+</section>
+<section id="skill">
+<h2>Skill</h2>
+  <p>Focused on building clean layouts and user interfaces using modern CSS techniques.</p>
+<ul>
+  <li>HTML</li>
+  <li>CSS(flexbox + grid)</li>
+  <li>Version Control(git & github)</li>
+  <li>Deployment(git pages)</li>
+</ul>
+    </section> 
+</main>
+    <footer id="contact">
+       <p> Email: minahilsharif87@gmail.com</p>
+    <p> Contact: 03076827137</p>
+    <p> GitHub: <a href="https://github.com/Minahil-Butt">Minahil-Butt</a></p>
+    </footer>
+  </body>
+</html>
